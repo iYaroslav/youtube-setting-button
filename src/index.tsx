@@ -115,14 +115,13 @@ const Menu = ({ settings, onChange = () => {} }: MenuProps) => {
     ) => {
       let _items: Setting[]
       if (items.length && typeof items[0] === 'string') {
-        console.log(items, parent)
         // @ts-ignore
         _items = items.map((str: string) => ({
           key: str,
           title: str,
           value: undefined,
           checked: str === parent?.value
-        })) as Setting[]
+        }))
       } else {
         _items = items as Setting[]
       }
@@ -168,7 +167,6 @@ const Menu = ({ settings, onChange = () => {} }: MenuProps) => {
     }
 
     fillPage(_settings, 'main')
-    console.log(pages)
     return pages
   }, [settings])
 
