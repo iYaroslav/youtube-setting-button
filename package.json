@@ -24,8 +24,7 @@
     "deploy": "sh deploy.sh"
   },
   "peerDependencies": {
-    "react": "^16.0.0",
-    "react-portal": "^4.2.0"
+    "react": "^16.0.0"
   },
   "dependencies": {
     "react-portal": "^4.2.1"
