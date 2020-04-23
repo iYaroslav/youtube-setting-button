@@ -27,6 +27,9 @@
     "react": "^16.0.0",
     "react-portal": "^4.2.0"
   },
+  "dependencies": {
+    "react-portal": "^4.2.1"
+  },
   "devDependencies": {
     "@types/jest": "^25.1.4",
     "@types/react": "^16.9.27",
@@ -51,7 +54,6 @@
     "prettier": "^2.0.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-portal": "^4.2.1",
     "react-scripts": "^3.4.1"
   },
   "files": [
