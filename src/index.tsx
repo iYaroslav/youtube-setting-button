@@ -74,6 +74,7 @@ export interface Props extends MenuProps {
   hd?: boolean
   active?: boolean
   className?: string
+  menuClassName?: string
   style?: CSSProperties
   settings: Setting[]
   onChange?: (settings: Setting[]) => void
@@ -213,7 +214,14 @@ const Menu = ({ settings, onChange = () => {} }: MenuProps) => {
   )
 }
 
-const SettingButton = ({ style, className, hd, settings, onChange }: Props) => {
+const SettingButton = ({
+  style,
+  className,
+  menuClassName,
+  hd,
+  settings,
+  onChange
+}: Props) => {
   const ref = useRef<HTMLDivElement>(null)
 
   return (
@@ -234,7 +242,7 @@ const SettingButton = ({ style, className, hd, settings, onChange }: Props) => {
 
           {portal(
             <div className={styles.portal}>
-              <div className={styles.container}>
+              <div className={[styles.container, menuClassName].join(' ')}>
                 <Menu onChange={onChange} settings={settings} />
               </div>
             </div>
