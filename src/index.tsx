@@ -225,7 +225,7 @@ const SettingButton = ({
   const ref = useRef<HTMLDivElement>(null)
 
   return (
-    <PortalWithState defaultOpen closeOnOutsideClick closeOnEsc>
+    <PortalWithState closeOnOutsideClick closeOnEsc>
       {({ openPortal, isOpen, portal }) => (
         <React.Fragment>
           <div
