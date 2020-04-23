@@ -150,6 +150,9 @@ const Menu = ({ settings, onChange = () => {} }: MenuProps) => {
               } else {
                 if (parent) {
                   parent.value = s.title
+                  if (parentKey) {
+                    setCurrent(parentKey)
+                  }
                 }
               }
 
