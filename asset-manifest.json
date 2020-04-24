@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/youtube-settings-button/static/css/main.0a47cf65.chunk.css",
-    "main.js": "/youtube-settings-button/static/js/main.44690a8d.chunk.js",
-    "main.js.map": "/youtube-settings-button/static/js/main.44690a8d.chunk.js.map",
+    "main.js": "/youtube-settings-button/static/js/main.dad306ac.chunk.js",
+    "main.js.map": "/youtube-settings-button/static/js/main.dad306ac.chunk.js.map",
     "runtime-main.js": "/youtube-settings-button/static/js/runtime-main.34049ef0.js",
     "runtime-main.js.map": "/youtube-settings-button/static/js/runtime-main.34049ef0.js.map",
     "static/js/2.30c9a100.chunk.js": "/youtube-settings-button/static/js/2.30c9a100.chunk.js",
     "static/js/2.30c9a100.chunk.js.map": "/youtube-settings-button/static/js/2.30c9a100.chunk.js.map",
     "index.html": "/youtube-settings-button/index.html",
-    "precache-manifest.60822195d32f9bd73d96b5d0b49c05f3.js": "/youtube-settings-button/precache-manifest.60822195d32f9bd73d96b5d0b49c05f3.js",
+    "precache-manifest.29f7938a837fd6f586e816edb277fb6c.js": "/youtube-settings-button/precache-manifest.29f7938a837fd6f586e816edb277fb6c.js",
     "service-worker.js": "/youtube-settings-button/service-worker.js",
     "static/css/main.0a47cf65.chunk.css.map": "/youtube-settings-button/static/css/main.0a47cf65.chunk.css.map",
     "static/js/2.30c9a100.chunk.js.LICENSE.txt": "/youtube-settings-button/static/js/2.30c9a100.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.34049ef0.js",
     "static/js/2.30c9a100.chunk.js",
     "static/css/main.0a47cf65.chunk.css",
-    "static/js/main.44690a8d.chunk.js"
+    "static/js/main.dad306ac.chunk.js"
   ]
 }
